@@ -10,11 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайта-->
     <header class="header">
+        <div class="container">
         <nav class="header-nav">
             <a href="./index.html" class="logo-dark"> <span class="logo-blue">Web</span>Studio</a>
             <ul class="header-site-nav list">
@@ -27,16 +29,21 @@
             <li><a class="header-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="header-info-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
+    <div class="container"></div>
     <!--Унікальний контент-->
     <main>
         <!--Герой-->
-        <section class="hero">
+        <section class="hero section">
+            <div class="container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="button">Замовити послугу</button>
+            </div>
         </section>
         <!--Чим ми займаємось-->
-        <section class="features"> 
+        <section class="features section"> 
+            <div class="container">
             <h2 class="features-title visually-hidden">Наші особливості</h2>
             <ul class="feature-list list">
                 <li>
@@ -56,17 +63,21 @@
                     <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section class="work">
+        <section class="work section">
+            <div class="container">
             <h2 class="work-title">Чим ми займаємося</h2>
             <ul class="list">
                 <li><img src="./images/img1.jpg" alt="Людина працює за комп'ютером" width="370"></li>
                 <li><img src="./images/img2.jpg" alt="Людина обирає макет для мобільної версії" width="370"></li>
                 <li><img src="./images/img3.jpg" alt="Людина обирає колір" width="370"></li>
             </ul>
+            </div>
         </section>
         <!--Наша команда-->
-        <section class="team">
+        <section class="team section">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="list">  
                 <li class="team-card">
@@ -90,10 +101,12 @@
                     <p class="team-position">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>  
     </main>
     <!--Футер-->
     <footer class="footer">
+        <div class="container">
         <a href="./index.html" class="logo-light"> <span class="logo-blue">Web</span>Studio</a>
         <address class="address">
             <ul class="list">
@@ -102,6 +115,7 @@
                 <li><a href="tel:+380961111111" class="footer-info">+38 096 111 11 11</a></li>
             </ul>    
         </address>
+        </div>
     </footer>
 </body>
 </html>
