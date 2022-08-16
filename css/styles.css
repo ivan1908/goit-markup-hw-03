@@ -69,8 +69,7 @@ h2, h3, p{
 .logo-light {
     color: var(--logo-second-part-down);
     text-decoration: none;
-    font-family: 'Raleway',
-        sans-serif;
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -147,6 +146,9 @@ h2, h3, p{
 .team {
     background-color: var(--team-bg-color);
 }
+.work li{
+    margin: 0;
+}
 .work-title {
     text-align: center;
     font-weight: 700;
@@ -202,9 +204,12 @@ h2, h3, p{
 
 .footer {
     background-color: var(--footer-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .address {
     font-style: normal;
+    margin-top: 20px;
 }
 .address-link {
     color: var(--footer-address-link) ;
@@ -219,6 +224,8 @@ h2, h3, p{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
+    margin-top: 9px;
+    display: inline-block;
 }
 .footer-info:hover,
 .footer-info:focus {
@@ -249,6 +256,7 @@ h2, h3, p{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 .portfolio-list .title{
     font-weight: 700;
