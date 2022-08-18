@@ -114,6 +114,9 @@ img {
 .header-site-nav .header-link:focus {
     color: var(--link-color-focus);
 }
+.header-link {
+    padding: 32px 0;
+}
 .header-link,
 .header-info-link{
     font-weight: 500;
